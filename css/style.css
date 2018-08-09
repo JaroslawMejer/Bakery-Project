@@ -88,7 +88,7 @@ body {
 /* SPECIAL FONTS */
 @font-face {
   font-family: "Scriptin";
-  src: url(../css/fonts/SCRIPTIN.ttf) format("truetype");
+  src: url(../sass/fonts/SCRIPTIN.ttf) format("truetype");
 }
 
 /* END OF SPECIAL FONTS */
@@ -234,6 +234,8 @@ body {
   letter-spacing: 1.2mm;
   font-size: 1.5em;
   margin: 2em 0;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .hero__greeting .hero__greeting__button {
@@ -386,4 +388,120 @@ body {
 }
 
 /* END OF ABOUT US */
+/* MENU */
+.menu__container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.menu__slider .menu__slider__cell {
+  width: 100%;
+}
+
+.menu__slider .menu__slider__cell .row {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__left {
+  height: inherit;
+  background-color: #eaeaea;
+  padding: 0;
+  position: relative;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__left .cell__left__img {
+  width: 100%;
+  -ms-flex-align: end;
+      align-items: flex-end;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__right {
+  background-color: #eaeaea;
+  padding: 0;
+  padding-left: 3em;
+  font-family: 'Alegreya', serif;
+  position: relative;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__right .cell__right__title {
+  font-size: 3em;
+  padding-top: 1em;
+  margin: 0;
+  color: #56534c;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__right .cell__right__subtitle {
+  color: #a47d5e;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.menu__slider .menu__slider__cell .menu__slider__cell__right .cell__right__text {
+  color: #56534c;
+  padding-right: 10vw;
+  padding-top: 3em;
+}
+
+/* FLICKITY SET UP */
+.flickity-page-dots {
+  bottom: 5px;
+}
+
+.nav-carousel {
+  width: 100%;
+}
+
+.nav-carousel .carousel-cell {
+  width: 33%;
+  height: 100px;
+}
+
+/* RWD */
+@media (max-width: 900px) {
+  body {
+    font-size: 13px;
+  }
+  /* HERO RWD */
+  .hero__header .hero__header__logo {
+    width: 100%;
+    padding: 0;
+  }
+  .hero__header .hero__header__navbar {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .hero__header .hero__header__social {
+    position: fixed;
+    right: 0;
+    top: 25vh;
+    background-color: rgba(86, 83, 76, 0.6);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .hero__header .hero__header__social .hero__header__social_button {
+    padding: 10px 10px;
+  }
+  /*  END OF HERO RWD */
+  /* ABOUTUS RWD */
+  .aboutUs__left {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .aboutUs__right {
+    display: none;
+  }
+  /* END OF ABOUTUS RWD */
+}
 /*# sourceMappingURL=style.css.map */
