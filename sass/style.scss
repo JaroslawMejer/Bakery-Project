@@ -227,6 +227,7 @@ $brown-color: rgb(86, 83, 76);;
 	width: 100%;
 	max-width: 1250px;
 	margin: 0 auto;
+	padding-bottom: 4em;
 }
 
 .aboutUs__left{
@@ -434,6 +435,118 @@ $brown-color: rgb(86, 83, 76);;
   right: -40px;
 }
 
+/* BREAKFAST */
+
+.breakfast{
+	background-image: url(https://public.adobecc.com/files/1E2UQENOCQ02IIJPAHCHS0H5VGCFFF);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.breakfast__container{
+	width: 100%;
+	max-width: 1250px;
+	margin: 0 auto;
+	.row{
+		padding-top: 2.2em;
+		padding-bottom: 2.2em;
+		display: flex;
+	}
+}
+
+.breakfast__menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Alegreya', serif;
+	.breakfast__menu__title{
+		font-size: 3em;
+		text-align: center;
+		margin-bottom: 0;
+		color: white;
+	}
+	.breakfast__menu__subtitle{
+		color: #c8a593;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	.breakfast__menu__position{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.breakfast__menu__position__title{
+			margin-top: 2em;
+			font-size: 1.5em;
+			color: white;
+		}
+		.breakfast__menu__position__desc{
+			margin: 0;
+			color: #c2beba;
+			font-weight: bold;
+		}
+		.breakfast__menu__position__price{
+			font-size: 2.2em;
+			color: #dfc691;
+			margin: 0;
+		}
+		.breakfast__menu__position__price--last{
+			margin-bottom: 1.5em;
+		}
+	}
+}
+
+.breakfast__leaflet{
+	font-family: 'Alegreya', serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	.breakfast__leaflet__container{
+		background-color: rgb(243,241,233);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		.row{
+			width: 80%;
+			padding-bottom: 0;
+		}
+		.leaflet__logo__left{
+			text-align: center;
+			margin-bottom: 0;
+			color: $brown-color;
+			font-weight: bold;
+		}
+		.leaflet__logo__right{
+			text-align: center;
+			margin-bottom: 0;
+			color: $brown-color;
+			font-weight: bold;
+		}
+		.leaflet__img{
+			display: block;
+			width: 70%;
+			height: auto;
+		}
+		.leaflet__title{
+			font-size: 3em;
+			padding: 0 20%;
+			text-align: center;
+			color: $brown-color;
+			margin-top: 1.3em;
+		}
+		.leaflet__desc{
+			padding: 0 20%;
+			text-align: center;
+			word-spacing: 3px;
+			line-height: 2em;
+			margin-top: 0;
+		}
+	}
+}
 
 
 

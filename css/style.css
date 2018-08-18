@@ -270,6 +270,7 @@ body {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+  padding-bottom: 4em;
 }
 
 .aboutUs__left {
@@ -514,6 +515,149 @@ body {
 
 .flickity-prev-next-button.next {
   right: -40px;
+}
+
+/* BREAKFAST */
+.breakfast {
+  background-image: url(https://public.adobecc.com/files/1E2UQENOCQ02IIJPAHCHS0H5VGCFFF);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.breakfast__container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.breakfast__container .row {
+  padding-top: 2.2em;
+  padding-bottom: 2.2em;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breakfast__menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: 'Alegreya', serif;
+}
+
+.breakfast__menu .breakfast__menu__title {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0;
+  color: white;
+}
+
+.breakfast__menu .breakfast__menu__subtitle {
+  color: #c8a593;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.breakfast__menu .breakfast__menu__position {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.breakfast__menu .breakfast__menu__position .breakfast__menu__position__title {
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: white;
+}
+
+.breakfast__menu .breakfast__menu__position .breakfast__menu__position__desc {
+  margin: 0;
+  color: #c2beba;
+  font-weight: bold;
+}
+
+.breakfast__menu .breakfast__menu__position .breakfast__menu__position__price {
+  font-size: 2.2em;
+  color: #dfc691;
+  margin: 0;
+}
+
+.breakfast__menu .breakfast__menu__position .breakfast__menu__position__price--last {
+  margin-bottom: 1.5em;
+}
+
+.breakfast__leaflet {
+  font-family: 'Alegreya', serif;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container {
+  background-color: #f3f1e9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: auto;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .row {
+  width: 80%;
+  padding-bottom: 0;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .leaflet__logo__left {
+  text-align: center;
+  margin-bottom: 0;
+  color: #56534c;
+  font-weight: bold;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .leaflet__logo__right {
+  text-align: center;
+  margin-bottom: 0;
+  color: #56534c;
+  font-weight: bold;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .leaflet__img {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .leaflet__title {
+  font-size: 3em;
+  padding: 0 20%;
+  text-align: center;
+  color: #56534c;
+  margin-top: 1.3em;
+}
+
+.breakfast__leaflet .breakfast__leaflet__container .leaflet__desc {
+  padding: 0 20%;
+  text-align: center;
+  word-spacing: 3px;
+  line-height: 2em;
+  margin-top: 0;
 }
 
 /* RWD */
