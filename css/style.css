@@ -530,6 +530,7 @@ body {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 .breakfast__container .row {
@@ -714,6 +715,178 @@ body {
 }
 
 /* END OF BREAKFAST */
+/* SANDWICH */
+.sandwich {
+  background-color: #f3f1e9;
+}
+
+.sandwich .sandwich__container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.sandwich .sandwich__container .row {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sandwich .sandwich__header {
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+
+.sandwich .sandwich__header .sandwich__header__title {
+  font-size: 3em;
+  margin: 0;
+  color: #56534c;
+  padding-top: 1.6em;
+  background-image: url(https://public.adobecc.com/files/1EQYS0MUSKX5CI3Q5O4H3QFS1FPFFF);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sandwich .sandwich__header .sandwich__header__subtitle {
+  text-transform: uppercase;
+  margin: 0;
+  color: #a47d5e;
+}
+
+.sandwich .sandwich__left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: 'Alegreya', serif;
+}
+
+.sandwich .sandwich__left .sandwich__left__title {
+  color: #a47d5e;
+  font-size: 1.6em;
+  margin: 1em 0;
+}
+
+.sandwich .sandwich__left .sandwich__left__img {
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 100px;
+  transition: box-shadow 1s;
+}
+
+.sandwich .sandwich__left .sandwich__left__img:hover {
+  box-shadow: -5px 5px 20px 3px rgba(0, 0, 0, 0.75);
+}
+
+.sandwich .sandwich__left .sandwich__left__text {
+  color: #56534c;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.sandwich .sandwich__right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container {
+  position: relative;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  transform: scale(1.05);
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info {
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  background: rgba(255, 255, 255, 0.7);
+  transition: 1s;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info:hover {
+  background-color: white;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info:hover .infoContainer__time {
+  color: #dfc691;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info .infoContainer__title {
+  color: #a47d5e;
+  text-transform: uppercase;
+  margin: 0 3em;
+  margin-top: 30px;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info .infoContainer__time {
+  color: #56534c;
+  font-size: 3.7em;
+  margin: 0;
+  transition: 1s;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info .infoContainer__text {
+  color: #979285;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info--active {
+  background-image: url(https://public.adobecc.com/files/1ELBSC2XKFPTEZRZATZN0MRIK3BEFF);
+  background-position: center;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__infoContainer .info--active .infoContainer__time {
+  color: #dfc691;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img {
+  width: 100%;
+  height: auto;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__button {
+  font-family: 'Alegreya', serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  background-color: white;
+  font-weight: bold;
+  color: #dfc691;
+  border: 2px dashed #dfc691;
+  padding: 15px 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(-15%, 40%);
+  transition: 1s;
+}
+
+.sandwich .sandwich__right .sandwich__right__img__container .sandwich__right__img__container__button:hover {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  color: #56534c;
+}
+
 /* RWD */
 @media (max-width: 900px) {
   body {
