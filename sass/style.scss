@@ -602,6 +602,7 @@ $brown-color: rgb(86, 83, 76);;
 /* SANDWICH */
 
 .sandwich{
+	padding: 1.5em 0;
 	background-color: #f3f1e9;
 	.sandwich__container{
 		width: 100%;
@@ -635,6 +636,12 @@ $brown-color: rgb(86, 83, 76);;
 		justify-content: center;
 		align-items: center;
 		font-family: 'Alegreya', serif;
+		.sandwich__left__block{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 		.sandwich__left__title{
 			color: #a47d5e;
 			font-size: 1.6em;
@@ -738,7 +745,59 @@ $brown-color: rgb(86, 83, 76);;
 	}
 }
 
+/* END OS SANDWICH */
 
+/* FOOTER */
+
+.footer{
+	background-color: #f3f1e9;
+}
+.footer__container{
+	width: 100%;
+	max-width: 1250px;
+	margin: 0 auto;
+	.row{
+		display: flex;
+		align-items: center;
+	}
+}
+
+.footer__navCol{
+	.footer__navCol__list{
+		list-style-type: none;
+		text-transform: uppercase;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border-top: solid 1px $brown-color;
+		border-bottom: solid 1px $brown-color;
+		padding: 0;
+		font-family: 'Alegreya', serif;
+		.footer__navCol__list__el{
+			padding: 2em 0;
+			overflow: visible;
+
+			.footer__navCol__list__el__link{
+				text-decoration: none;
+				color: $brown-color;
+				transition: 0.5s;
+				&:hover{
+					text-shadow: 0px 0px 25px $brown-color;
+				}
+			}
+		}
+	}
+}
+
+.footer__logoCol{
+	.footer__logoCol__logo{
+		font-size: 1.8em;
+		font-family: 'Scriptin';
+		letter-spacing: 1.3mm;
+		text-align: center;
+		color: $brown-color;
+	}
+}
 
 
 
@@ -835,6 +894,32 @@ $brown-color: rgb(86, 83, 76);;
 			}
 			.leaflet__desc{
 				font-size: 1.2em;
+			}
+		}
+	}
+
+/* BREAKFAST ENDS */
+
+/* SANDWICH */
+	.sandwich{
+		.row{
+			flex-wrap: wrap;
+			.sandwich__left{
+				width: 100%;
+				flex-direction: row;
+				.sandwich__left__text{
+					font-size: 1.1em;
+					width: 80%;
+				}
+			}
+			.sandwich__right{
+				width: 100%;
+				.sandwich__right__img__container__infoContainer{
+					transform: scale(1.2);
+				}
+				.sandwich__right__img__container__button{
+					transform: translate(15%, 40%);
+				}
 			}
 		}
 	}
